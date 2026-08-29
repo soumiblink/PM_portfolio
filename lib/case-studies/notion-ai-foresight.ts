@@ -7,6 +7,7 @@ export const notionAiForesight: any = {
   role: 'Aspiring Product Manager (AI)',
   timeline: 'July 2026',
   type: 'Portfolio Case Study',
+  liveLink: 'https://notion-ai-prototype.vercel.app/',
   notionLink: ' https://app.notion.com/p/Reimagining-Notion-AI-as-the-AI-Operating-System-for-Modern-Teams-3b7d02fd354f804d920dd07a547f0b7e?source=copy_link', // Add your actual Notion link here
   
   // Hero section

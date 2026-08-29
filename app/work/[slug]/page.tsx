@@ -301,6 +301,30 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         tagline={caseStudy.subtitle}
         overview={overview}
       >
+        {/* Prototype Link Banner */}
+        {caseStudy.liveLink && (
+          <div className="mb-12 p-6 bg-gradient-to-r from-accent-50 to-warmth-100 border-l-4 border-accent-600 rounded-r-lg">
+            <div className="flex items-center justify-between flex-wrap gap-4">
+              <div>
+                <Caption className="text-accent-700 uppercase tracking-wider text-xs font-semibold mb-1">
+                  Interactive Prototype
+                </Caption>
+                <Body size="sm" className="text-charcoal-700">
+                  Experience the proposed solution through a working prototype
+                </Body>
+              </div>
+              <Button 
+                href={caseStudy.liveLink}
+                variant="primary"
+                size="sm"
+                className="flex items-center gap-2"
+              >
+                Try Prototype →
+              </Button>
+            </div>
+          </div>
+        )}
+        
         {/* Notion Link Banner */}
         {caseStudy.notionLink && (
           <div className="mb-12 p-6 bg-gradient-to-r from-accent-50 to-warmth-100 border-l-4 border-accent-600 rounded-r-lg">
@@ -319,8 +343,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
                 size="sm"
                 className="flex items-center gap-2"
               >
-                <span>View in Notion</span>
-                <span>→</span>
+                View in Notion →
               </Button>
             </div>
           </div>

@@ -105,6 +105,7 @@ export const projects: ProjectData[] = [
     tagline: 'Notion AI helps you write about work, but cannot tell if it is on track.',
     type: 'AI Product',
     status: 'Speculative Case Study',
+    liveLink: 'https://notion-ai-prototype.vercel.app/',
     competencies: [
       'Product Strategy',
       'AI Product Thinking',
