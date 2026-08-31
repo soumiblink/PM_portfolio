@@ -26,23 +26,14 @@ const experiences = [
     learnings: 'User engagement comes from thoughtful feature design. Performance optimization and architecture decisions directly impact user experience.',
   },
   {
-    role: 'Full Stack Developer (Freelancer)',
+    role: 'Product Manager ',
     company: 'Zesframe',
     period: 'March - September 2025',
     highlights: [
-      'Improved website responsiveness by 40% using Next.js and server-side rendering to prevent data leaks',
-      'Integrated backend with React components and maintained 100% version control using Git and GitHub',
-      'Managed deployment and hosting, ensuring 99.9% uptime with optimized workflows and infrastructure monitoring'
-    ],
-    learnings: 'End-to-end ownership of a product teaches you how technical decisions impact user experience and business reliability.',
-  },
-  {
-    role: 'Product Manager (Freelancer)',
-    company: 'Zesframe',
-    period: 'March - September 2025',
-    highlights: [
-      'Defined product roadmap and feature prioritization based on client requirements and technical feasibility, ensuring alignment between business goals and implementation',
-      'Led cross-functional coordination between design, development, and stakeholders to deliver projects on time while balancing scope, quality, and technical constraints'
+      'Owned product planning from requirements to delivery, working with clients to understand business needs, translate them into product requirements, and prioritize features based on impact, scope, and technical feasibility',
+      'Defined roadmaps and made prioritization trade-offs across features, balancing client priorities, user experience, development effort, and delivery timelines',
+      'Bridged product and engineering execution, collaborating with design and development while also contributing hands-on to the build through React/Next.js, backend integrations, and technical implementation',
+      'Drove products through launch and iteration, managing scope and deployment while monitoring reliability and using implementation feedback to refine the product'
     ],
     learnings: 'Product management is about making trade-offs. Understanding both user needs and technical limitations helps ship the right solution.',
   },
