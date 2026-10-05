@@ -9,33 +9,31 @@ const experiences = [
     company: 'BlackCoffer',
     period: 'May - June 2026',
     highlights: [
-      'Integrated sequential backend APIs in a React Native + Expo app for enterprise onboarding workflows, reducing API execution failures by 35%',
-      'Optimized app stability using Gradle, Metro bundler, and Android runtime issues, reducing build time by 40%'
+      'Redesigned enterprise onboarding workflows by integrating sequential backend APIs, reducing execution failures by 35% and resolving user drop-offs',
+      'Optimized Gradle and Android runtime performance, cutting build times by 20% to accelerate feature release cycles for product teams'
     ],
-    learnings: 'API integration and mobile app optimization require deep understanding of runtime behavior and build processes.',
+    learnings: 'Backend integration and build optimization directly impact how fast product teams can ship. Technical decisions create or remove bottlenecks for the entire delivery pipeline.',
   },
   {
     role: 'Full Stack Developer Intern',
     company: 'Jabsz Gaming Studio',
     period: 'August - November 2025',
     highlights: [
-      'Developed a multi-game web application (12+ games) with optimized state management and modular architecture, achieving 40% faster load times',
-      'Designed a 3-tier difficulty system with dynamic logic and scoring, increasing average session time by 30%',
-      'Built an AI-powered smart farming platform integrating weather, soil analysis, crop recommendations, LLM chatbot, and 6-month price forecasting, improving decision efficiency by 35%'
+      'Identified user needs for an AI smart farming platform and translated them into a prioritized feature set integrating weather data, LLM chatbot, and price forecasting, improving decision efficiency by 35%',
+      'Designed a 3-tier difficulty engine across 12+ web games based on user retention patterns, boosting average session duration by 18%'
     ],
-    learnings: 'User engagement comes from thoughtful feature design. Performance optimization and architecture decisions directly impact user experience.',
+    learnings: 'User engagement comes from understanding behavior patterns, not just building features. Retention data tells you what to prioritize when intuition does not.',
   },
   {
-    role: 'Product Manager ',
+    role: 'Product Management Intern',
     company: 'Zesframe',
     period: 'March - September 2025',
     highlights: [
-      'Owned product planning from requirements to delivery, working with clients to understand business needs, translate them into product requirements, and prioritize features based on impact, scope, and technical feasibility',
-      'Defined roadmaps and made prioritization trade-offs across features, balancing client priorities, user experience, development effort, and delivery timelines',
-      'Bridged product and engineering execution, collaborating with design and development while also contributing hands-on to the build through React/Next.js, backend integrations, and technical implementation',
-      'Drove products through launch and iteration, managing scope and deployment while monitoring reliability and using implementation feedback to refine the product'
+      'Led client discovery to understand business needs and translate them into PRDs, user stories, MVP scope, and delivery plans, giving engineering clear requirements to execute against',
+      'Shaped roadmap and scope decisions by weighing client priorities, user impact, technical feasibility, and engineering capacity, keeping delivery focused on the highest-value requirements',
+      'Managed client acceptance and post-launch iterations by combining stakeholder feedback with product telemetry to identify UX bottlenecks and drive improvements that increased website load and response performance by approximately 30%'
     ],
-    learnings: 'Product management is about making trade-offs. Understanding both user needs and technical limitations helps ship the right solution.',
+    learnings: 'Product management is about making trade-offs visible. Understanding both user needs and technical constraints helps you ship the right solution, not just any solution.',
   },
 ];
 
