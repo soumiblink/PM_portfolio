@@ -73,6 +73,13 @@ export function Header() {
               Experience
             </Link>
             <Link 
+              href="/#skills" 
+              variant="subtle"
+              className="text-sm font-medium hidden md:inline"
+            >
+              Skills
+            </Link>
+            <Link 
               href="/#about" 
               variant="subtle"
               className="text-sm font-medium hidden md:inline"
